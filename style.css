@@ -142,6 +142,11 @@
     transition: 3s;
 }
 
+.main_img_3
+{
+    margin-right: -1500px;
+}
+
 
 .nostra_main_img_1_2 img
 {
@@ -472,10 +477,10 @@
 {
     background-color: white;
     color: black;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     border-radius: 6px;
-    font-size: 3vh;
+    font-size: 24px;
 }
 .offer-div_2 a:hover
 {
@@ -718,6 +723,10 @@
 @media only screen and (min-width:600px) and (max-width:900px)
 {
        
+.offer-div_2 a
+{
+    font-size: 20px;
+}
 .menu_bar
 {
     display: block;

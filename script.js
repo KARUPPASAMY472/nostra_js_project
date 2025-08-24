@@ -5,25 +5,8 @@ var e=document.getElementById("e")
 var closemenu=document.querySelector(".close_menu_bar")
 var sidenavbar=document.querySelector(".side_navbar")
 var rightarrow=document.querySelector(".right_arrow")
-var shirtdiv=document.querySelector(".shirt_div")
-var overlaydiv=document.querySelector(".overlay_div")
 
 
-function changedivover()
-{
-    overlaydiv.style.display="flex";
-}
-function chanfered()
-{
-    nheart.style.display="none";
-    redheart.style.display="block";
-}
-
-function chanfenormal()
-{
-    nheart.style.display="block";
-    redheart.style.display="none";
-}
 
 
 
@@ -64,16 +47,90 @@ function chanfenormal()
 var leftarrow=document.querySelector(".left_arrow")
 var mainimg1=document.querySelector(".main_img_1")
 var mainimg2=document.querySelector(".main_img_2")
+var mainimg3=document.querySelector(".main_img_3")
+var lef1=document.querySelector(".arrow-tag-left")
+var rig1=document.querySelector(".arrow-tag-right")
+var lef=document.getElementById("lef")
+var rig=document.getElementById("rig")
+var thr=document.getElementById("thr")
+var fouri=document.getElementById("four")
 
-function rightclickarow()
-{
-    mainimg1.style="left:0%;right:0%";
-    mainimg2.style="margin-right:0%";
-}
+
 function leftclickarow()
 {
+    mainimg1.style="left:0%;right:0%";
+    mainimg2.style="margin-left:100%";
+    thr.style.display="none";
+    fouri.style.display="none";
+    lef.style.display="none";
+    rig.style.display="none";
+    lef1.style.display="block";
+    rig1.style.display="block";
+}
+function  rightclickarow()
+{
+    mainimg3.style="margin-right:0%";
     mainimg1.style="left:-110%;right:0%";
-    mainimg2.style="margin-right:0%";
+    mainimg2.style="margin-left:-100%";
+    thr.style.display="none";
+    fouri.style.display="none";
+    lef1.style.display="none";
+    rig1.style.display="none";
+    lef.style.display="block";
+    rig.style.display="block";
+}
+
+function leftclickt()
+{
+     mainimg3.style="margin-right:-1500px";
+    mainimg1.style="left:-110%;right:0%";
+    mainimg2.style="margin-left:0%";
+    thr.style.display="none";
+    fouri.style.display="none";
+    lef.style.display="none";
+    rig.style.display="none";
+    lef1.style.display="block";
+    rig1.style.display="block";
+}
+
+function rightclickt()
+{
+    mainimg3.style="margin-right:-1500px";
+    mainimg1.style="left:0%;right:0%";
+    mainimg2.style="margin-left:-100%";
+    thr.style.display="block";
+    fouri.style.display="block";
+    lef1.style.display="none";
+    rig1.style.display="none";
+    lef.style.display="none";
+    rig.style.display="none";
+}
+
+
+function rightcli()
+{
+     mainimg3.style="margin-right:-1500px";
+    mainimg1.style="left:-110%;right:0%";
+    mainimg2.style="margin-left:0%";
+    thr.style.display="none";
+    fouri.style.display="none";
+    lef.style.display="none";
+    rig.style.display="none";
+    lef1.style.display="block";
+    rig1.style.display="block";
+}
+
+function leftcli()
+{
+    mainimg3.style="margin-right:0%";
+    mainimg1.style="left:-110%;right:0%";
+    mainimg2.style="margin-left:-100%";
+    thr.style.display="none";
+    fouri.style.display="none";
+    lef1.style.display="none";
+    rig1.style.display="none";
+    lef.style.display="block";
+    rig.style.display="block";
 }
 
 /** color changed shirt */
