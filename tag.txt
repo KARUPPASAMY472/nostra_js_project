@@ -1,0 +1,20 @@
+ <!-- font awesome -->
+    <!-- font awesome -->
+    <!--contact person <i class="fa-regular fa-circle-user"></i> -->
+    <!--search <i class="fa-solid fa-magnifying-glass"></i> -->
+    <!--bar <i class="fa-solid fa-bars"></i> -->
+    <!-- house <i class="fa-solid fa-house-blank"></i> -->
+    <!-- bed <i class="fa-solid fa-bed"></i> -->
+    <!-- camera <i class="fa-regular fa-camera"></i> -->
+    <!-- resturant <i class="fa-solid fa-utensils"></i> -->
+    <!-- holidays home <i class="fa-solid fa-house-circle-check"></i> -->
+    <!-- plane  <i class="fa-solid fa-plane-departure"></i> -->
+    <!-- right arrow <i class="fa-solid fa-arrow-right"></i> -->
+    <!-- left arrow <i class="fa-solid fa-arrow-left"></i> -->
+    <!--caret left <i class="fa-solid fa-caret-left"></i> -->
+    <!-- caret left <i class="fa-solid fa-caret-right"></i> -->
+    <!-- heart <i class="fa-regular fa-heart"></i> -->
+    <!-- dote  <i class="fa-solid fa-ellipsis"></i> -->
+    <!-- circle <i class="fa-solid fa-circle"></i> -->
+    <!-- lower caret  <i class="fa-solid fa-angle-down"></i> -->
+    <!-- up caret  <i class="fa-solid fa-angle-up"></i> -->

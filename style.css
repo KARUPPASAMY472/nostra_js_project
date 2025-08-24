@@ -1,0 +1,748 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.side_navbar
+{
+    background-color: rgb(3, 3, 47);
+    width: 65%;
+    height: 100%;
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    margin-left: -65%;
+    transition-duration: 1s;
+}
+.x_mark
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.close_menu_bar
+{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.close_menu_bar:hover
+{
+    color: orangered;
+}
+.menu_bar_navbar
+{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.menu_bar_navbar a
+{
+    width: fit-content;
+    color: gray;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+.menu_bar_navbar a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+.nostra_header
+{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nostra_navbar
+{
+    width: 100%;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+
+}
+.menu_bar
+{
+    display: none;
+    cursor: pointer;
+}
+.nostra_navbar_p_tag
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+}
+.nostra_navbar_p_tag a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 27px;
+    transition: 1s;
+
+}
+.nostra_navbar_p_tag a:hover
+{
+    color: white;
+    background-color: orangered;
+}
+.nostra_main_img
+{
+    padding: 10px;
+}
+.nostra_main_img_1
+{
+    border-radius: 10px;
+    position: relative;
+    height: 500px;
+    
+}
+.nostra_main_img_1_2
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-right: 0%;
+    margin-left: 0px;
+    overflow-x:hidden;
+    transition: 3s;
+}
+.main_img_1
+{
+    position: absolute;
+    left: -110%;
+    transition: 5s;
+    right: 0%;
+    transition: 3s;
+}
+.main_img_2
+{
+    transition: 3s;
+}
+
+
+.nostra_main_img_1_2 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.nostra_main_img_1_content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 2;
+    background-color: rgb(30, 29, 29);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+.nostra_main_img_1_content h1
+{
+    font-size: 5vw;
+    padding: 10px;
+    color: white;
+}
+
+.nostra_main_img_1_content p
+{
+    text-align: center;
+    font-size: 28px;
+}
+
+.btn-a
+{
+    border-radius: 28px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(172, 170, 172);
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px;
+    transition: 1s;
+}
+.btn-a:hover
+{
+    background-color:white;
+}
+.arrow-tag-left
+{
+    position: absolute; 
+    left: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+     padding: 5px;
+     font-size: 40px;
+}
+.arrow-tag-right
+{
+    position: absolute; 
+    right: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 40px;
+}
+.arrow-tag-right:hover
+{
+    background-color: antiquewhite;
+    cursor: pointer;
+    color: black;
+}
+.arrow-tag-left:hover
+{
+    background-color: antiquewhite;
+    cursor: pointer;
+    color: black;
+}
+
+.nostra_brand_section
+{
+    margin-top: 20px 0px;
+    padding: 20px;
+    transition-duration: 6s;
+}
+
+.nostra_brand_collection
+{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 10px;
+    align-items: center;
+    gap: 50px;
+    overflow-x: scroll;
+}
+.nostra_brand_collection::-webkit-scrollbar
+{
+    border: none;
+}
+
+.nostra_brand_img
+{
+    width: 50px;
+}
+
+.nostra_provides_section
+{
+    margin: 20px 0px;
+    padding: 0px 20px;
+    transition-duration: 6s;
+    transition-delay: 2s;
+}
+.nostra_provides_container_1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nostra_provides_container_1 p
+{
+    font-size: 3vh;
+}
+.nostra_provides_container_2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+}
+.container-contant_1
+{
+    padding: 10px;
+    background-color: rgb(238, 242, 243);
+    border-radius: 10px;
+}
+.container-contant_1 p
+{
+    font-size: 17px;
+}
+
+.container-contant_1 h4
+{
+    padding: 10px 0px;
+}
+.provide_i_tag
+{
+    font-size: 5vh;
+}
+.new_arrival_section
+{
+    margin: 20px;
+}
+.nostra_new_arrival
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+.new_arrival_collection_1
+{
+    margin: 20px 0px;
+    width: 300px;
+    position: relative;
+}
+.new_arrival_collection_1 img
+{
+    width: 100%;
+}
+.overlay
+{
+   border-radius: 2%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+    opacity: 0.6;
+}
+.arrival_a_tag
+{
+    text-decoration: none;
+    position: absolute;
+    bottom:40%;
+    left: 10%;
+    right: 10%;
+    z-index: 4;
+    color: black;
+    background-color: white;
+    padding:5% 10%;
+    border-radius: 28px;
+}
+.arrival_a_tag:hover
+{
+    
+    transition: 2s;
+    background-color:blueviolet;
+}
+.nostra_most_collection
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: scroll;
+    margin-top: 2vw;
+}
+
+.nostra_most_collection::-webkit-scrollbar
+{
+    border: none;
+}
+.most_wanted_collection
+{
+    min-width: 250px;
+    position: relative;
+    border: 1px solid rgb(234, 246, 252);
+    padding: 10px;
+}
+.most_wanted_collection img
+{
+    width: 100%;
+}
+.most_sale
+{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    color: white;
+    background-color: orangered;
+    padding: 4px 10px;
+    font-size:20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.most_heart
+{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    font-size: 25px;
+    color: red;
+    width: 25px;
+}
+.n-heart:hover
+{
+    cursor: pointer;
+    color: red;
+}
+.red-heart
+{
+    display: none;
+    cursor: pointer;
+    color: red;
+}
+.most_color
+{
+    position: absolute;
+    top: 38%;
+    left: -1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.brown-shirt
+{
+    color: brown;
+    cursor: pointer;
+}
+.blueviolet-shirt
+{
+    color: blueviolet;
+    cursor: pointer;
+}
+.gray-shirt
+{
+    color: gray;
+    cursor: pointer;
+}
+.nostra_offer_section
+{
+    padding: 20px;
+}
+.nostra-offer
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 3, 59);
+    padding: 20px 0px;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.offer-div_1
+{
+    width: 100%;
+    height: 100%;
+}
+.offer-div_1 img{
+    width: 100%;
+    padding: 10px;
+}
+.offer-div_2 h1
+{
+    width: 100%;
+    font-size: 40px;
+}
+.offer-div_2 h3
+{
+    width: 100%;
+    font-size: 28px;
+}
+.offer-div_2 a
+{
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 3vh;
+}
+.offer-div_2 a:hover
+{
+    background-color: rgb(72, 72, 102);
+    color: white;
+}
+.nostra_subscribe
+{
+    text-align: center;
+    padding: 10px;
+}
+.nostra_subscribe h2
+{
+    padding: 10px 0px 0px 0px;
+}
+.nostra_subscribe p
+{
+    padding: 10px 0px;
+}
+.nostra_subscribe_input input
+{
+    width: 80%;
+    padding: 10px;
+    border: 3px solid black;
+}
+.nostra_subscribe_input button
+{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 10px 0px;
+    font-weight: 1000;
+    border-radius: 5px;
+}
+.nostra_subscribe_input button:hover
+{
+    cursor: pointer;
+    background-color: gray;
+}
+.nosrta_last
+{
+    background-color: rgb(3, 3, 59);
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* collection css */
+
+.nostra_collection_section
+{
+    display: flex;
+    padding: 20px 0px;
+    gap: 20px;
+    width: 100%;
+}
+.nostra_collection_section_1
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.occasion
+{
+    width: 100%;
+    padding: 10px 20px;
+}
+.select_shirt,.select_color,.select_arraivel
+{
+    padding: 10px;
+    font-size:20px;
+    display: flex;
+    gap: 10px;
+}
+.select_shirt input,.select_color input,.select_arraivel input
+{
+    cursor: pointer;
+}
+.nostra_collection_section_2
+{
+    padding: 20px 10px;
+    float: right;
+    width: 75%;
+    border-left: 2px solid black;
+}
+.search_input
+{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 28px;
+    margin: 5px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_input input
+{
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+}
+.search_input input:focus
+{
+    outline: none;
+    font-size: 20px;
+}
+.shirt_collection
+{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: scroll;
+}
+.shirt_collection::-webkit-scrollbar
+{
+    border: none;
+}
+.shirt_div
+{   
+    position: relative;
+    min-width: 220px;
+    padding: 20px 5px;
+}
+.shirt_collection img
+{
+    width: 100%;
+    background-color: rgb(19, 195, 183);
+    height: 220px;
+}
+.overlay_div
+{
+    padding: 20px 0px 0px 0px;
+}
+.overlay_div a{
+    padding:10px;
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.overlay_div a:hover
+{
+    background-color: rgb(173, 93, 239);
+}
+
+@media only screen and (max-width:600px) {
+    
+.menu_bar
+{
+    display: block;
+}
+.nostra_navbar_p_tag
+{
+    display: none;
+}
+.nostra_main_img_1
+{
+    height: 300px;
+}
+.nostra_provides_container_1 h3
+{
+    width: 400px;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.nostra_provides_container_1 p
+{
+    width: 800px;
+    font-size: 13px;
+    padding: 10px 0px;
+}
+.nostra_provides_container_2
+{
+    gap: 6px;
+}
+
+.container-contant_1
+{
+    font-size: 15px;
+    padding: 10px;
+}
+.provide_i_tag
+{
+    font-size: 2vh;
+}
+.container-contant_1 p
+{
+    font-size: 10px;
+}
+
+.container-contant_1 h4
+{
+    padding:0px;
+}
+.arrival_a_tag
+{
+    position: absolute;
+    bottom:30%;
+    left: 5%;
+    right: 10%;
+    font-size: 9px;
+    padding:5px;
+    text-align: center;
+    width: 96%;
+}
+.nostra_subscribe p
+{
+    font-size: 14px;
+}
+
+
+.nostra_collection_section
+{
+    width: 100%;
+}
+.nostra_collection_section_1
+{
+    display: none;
+}
+.nostra_collection_section_2
+{
+    width: 100%;
+}
+}
+
+@media only screen and (min-width:600px) and (max-width:900px)
+{
+       
+.menu_bar
+{
+    display: block;
+}
+.nostra_navbar_p_tag
+{
+    display: none;
+}
+    .arrival_a_tag
+{
+    text-align: center;
+    position: absolute;
+    bottom:30%;
+    left: 5%;
+    right: 10%;
+    width: 90%;
+    font-size: 15px;
+    padding:8px 5px;
+}
+
+.nostra_collection_section_2
+{
+    width: 63%;
+}
+}
+
+
+
