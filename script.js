@@ -58,14 +58,16 @@ var fouri=document.getElementById("four")
 
 function leftclickarow()
 {
+    
+    mainimg3.style="margin-right:-1500px";
     mainimg1.style="left:0%;right:0%";
     mainimg2.style="margin-left:100%";
-    thr.style.display="none";
-    fouri.style.display="none";
+    thr.style.display="block";
+    fouri.style.display="block";
     lef.style.display="none";
     rig.style.display="none";
-    lef1.style.display="block";
-    rig1.style.display="block";
+    lef1.style.display="none";
+    rig1.style.display="none";
 }
 function  rightclickarow()
 {
@@ -95,7 +97,7 @@ function leftclickt()
 
 function rightclickt()
 {
-    mainimg3.style="margin-right:-1500px";
+    mainimg3.style="margin-left:-200%";
     mainimg1.style="left:0%;right:0%";
     mainimg2.style="margin-left:-100%";
     thr.style.display="block";

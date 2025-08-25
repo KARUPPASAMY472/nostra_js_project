@@ -208,8 +208,36 @@
     left: 10px;
     background-color: orangered;
     border-radius: 50%;
-     padding: 5px;
+    font-size: 40px;
+    width: 60px;
+}
+.arrow-tag-left i
+{
+    background-color: orangered;
+    border-radius: 50%;
+     padding: 10px;
+     width: 100%;
      font-size: 40px;
+}
+.arrow-tag-left i:hover
+{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+.arrow-tag-right i
+{
+    background-color: orangered;
+    border-radius: 50%;
+     padding: 10px;
+     width: 100%;
+     font-size: 40px;
+}
+.arrow-tag-right i:hover
+{
+    background-color:white;
+    color: black;
+    cursor: pointer;
 }
 .arrow-tag-right
 {
@@ -217,7 +245,7 @@
     right: 10px;
     background-color: orangered;
     border-radius: 50%;
-    padding: 5px;
+    width: 60px;
     font-size: 40px;
 }
 .arrow-tag-right:hover
@@ -380,6 +408,7 @@
 .most_wanted_collection img
 {
     width: 100%;
+    height: 280px;
 }
 .most_sale
 {
