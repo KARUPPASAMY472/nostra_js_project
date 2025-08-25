@@ -246,7 +246,6 @@
     background-color: orangered;
     border-radius: 50%;
     width: 60px;
-    font-size: 40px;
 }
 .arrow-tag-right:hover
 {
@@ -563,6 +562,30 @@
 
 
 /* collection css */
+.collection_section_navbar_top
+    {
+
+    display: flex;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 10px;
+    position: sticky;
+    top: 11px;
+    z-index: 20px;
+}
+.nav_top_one h1
+{
+     cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+
 
 .nostra_collection_section
 {
@@ -670,7 +693,24 @@
 }
 
 @media only screen and (max-width:600px) {
-    
+.arrow-tag-right i
+{
+    font-size: 40px;
+}
+.arrow-tag-right
+{
+    width: 15%;
+    right: 1px;
+}
+.arrow-tag-left i
+{
+    font-size: 40px;
+}
+.arrow-tag-left
+{
+    width: 15%;
+    left: 1px;
+}
 .menu_bar
 {
     display: block;
@@ -735,6 +775,28 @@
 }
 
 
+.collection_section_navbar_top
+{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 10px 0px;
+        margin: 2px 0px 20px 0px;
+        position: sticky;
+        top: 47px;
+        z-index: 30;
+        background-color: white;
+}
+.nav_top_one
+{
+    position: relative;
+}
+.nav_top_one_div
+{
+    position: absolute;
+    top: 20px;
+    font-size: 15px;
+}
 .nostra_collection_section
 {
     width: 100%;
