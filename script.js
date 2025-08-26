@@ -145,6 +145,7 @@ function leftcli()
 
 
 
+
                 const imagesi =[
                 ["images/shirt4.1.jpg","images/shirt4.2.jpg","images/shirt4.3.jpg"],
                 ["images/shirt3.1.jpg","images/shirt3.2.jpg","images/shirt3.3.jpg"],

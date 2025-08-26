@@ -15,18 +15,6 @@ productsearch.addEventListener("keyup",function(event)
         if (productname.toUpperCase().indexOf(searchtext)<0)
         {
             containerdiv[i].style.display="none";
-            document.getElementById("h1tag1").style.display="block";
-            /*
-            if (productname.toUpperCase().indexOf(searchtext)===-1)
-            {
-            document.getElementById("h1tag1").style.display="block";
-            }
-            else
-            {
-                
-            document.getElementById("h1tag1").style.display="none";
-            
-            */
         }
         else
         {
@@ -69,3 +57,32 @@ productsearch.addEventListener("keyup",function(event)
     }
 
     checkboxes.forEach(cb => cb.addEventListener("change", filterProducts));
+
+
+    
+
+
+    var acc = document.getElementsByClassName("htags");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("mouseover", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    }
+       else {
+      panel.style.display = "block";
+      if(panel.style.display === "block")
+      {
+       
+      panel.style.display = "block"; 
+      }
+      else if(panel[i] === 0)
+      {
+        panel.style.display = "none";
+      }
+    }
+  });
+}

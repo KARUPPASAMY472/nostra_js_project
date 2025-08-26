@@ -13,6 +13,10 @@ html{
 {
     display: none;
 }
+.shown
+{
+    display: block;
+}
 
 .side_navbar
 {
@@ -795,7 +799,8 @@ html{
 {
         display: flex;
         flex-wrap: wrap;
-        gap: 5px;
+        justify-content: center;
+        gap: 15px;
         padding: 10px 0px;
         margin: 2px 0px 20px 0px;
         position: sticky;
@@ -824,6 +829,20 @@ html{
 .nostra_collection_section_2
 {
     width: 100%;
+}
+.nostra-offer 
+{
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.nav_top_one_div
+{
+    background-color: white;
+    color: black;
+    z-index: 10;
+    padding: 1px;
 }
 }
 
