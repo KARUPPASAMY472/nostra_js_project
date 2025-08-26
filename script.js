@@ -135,6 +135,12 @@ function leftcli()
     rig.style.display="block";
 }
 
+
+
+
+
+
+
 /** color changed shirt */
 
 
@@ -158,6 +164,8 @@ function leftcli()
                const colorIndex=parseInt(butto.dataset.color);
                if (colorIndex === 0)
                {
+
+                
                 
                 img.src =imagesi[index][0];
                 
@@ -196,4 +204,50 @@ function leftcli()
                 });
             });
 
+
+
+
+
+   
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("offer-div_1");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  
+  slides[slideIndex-1].style.display="block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+/*
+
+var checkshirtnamebox=document.getElementById("checkshirtnamebox")
+const selectshirt=checkshirtnamebox.querySelectorAll(".select_shirt");
+var productsear=checkshirtnamebox.querySelectorAll(".check_boxs")
+
+productsear.addEventListener("click",function(event)
+{
+    checktextval=textContent.value;
+})
+
+var sectionnavbartop=document.querySelector(".collection_section_navbar_top")
+var clickh1tag=sectionnavbartop.querySelectorAll("h1")
+var navtopdiv=sectionnavbartop.querySelectorAll(".nav_top_one_div")
+
+clickh1tag.addEventListener("click",function()
+{
+    for(let i=0;i<clickh1tag;i++)
+    {
+        navtopdiv.style.display="none"   
+    }
+})
+
+*/
 

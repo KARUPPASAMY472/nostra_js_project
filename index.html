@@ -81,7 +81,7 @@
         </div>
     </section>
 
-    <section class="nostra_brand_section">
+    <section class="nostra_brand_section animate_trans animate_opcity">
         <h2>Brands</h2>
         <div class="nostra_brand_collection">
             <div>
@@ -115,7 +115,7 @@
         </div>
     </section>
 
-    <section class="nostra_provides_section">
+    <section class="nostra_provides_section animate_trans animate_opcity ">
         <div class="nostra_provides_container_1">
             <h3 style="padding: 10px 0px;font-size: 32px;letter-spacing: 0.1pc;">We Provide Best <br>Customer Experiences</h3>
             <p>|| We ensure that our customer have the best shopping experience</p>
@@ -144,7 +144,7 @@
         </div>
     </section>
 
-    <section class="new_arrival_section">
+    <section class="new_arrival_section animate_trans animate_opcity">
         <h1>
             New Arrivals
         </h1>
@@ -298,10 +298,16 @@
         </div>
     </section>
 
-    <section class="nostra_offer_section">
+    <section class="nostra_offer_section animate_trans animate_opcity">
         <div class="nostra-offer">
             <div class="offer-div_1">
                 <img src="images/clasesmainpage.jpg" alt="">
+            </div>
+            <div class="offer-div_1">
+                <img src="images/shirtmainpage2.jpg" alt="" width="">
+            </div>
+            <div class="offer-div_1">
+                <img src="images/shirtmainpage.jpg" alt="">
             </div>
             <div class="offer-div_2">
                 <h1>Limited Offer</h1>
@@ -311,6 +317,8 @@
                 </div>
             </div>
         </div>
+
+        
 
         <div class="nostra_subscribe">
             <h2>Join our News Letter</h2>
@@ -339,7 +347,24 @@
     </section>
 
     <script src="script.js">
+        // image change automatically
 
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("offer-div_1");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  
+  slides[slideIndex-1].style.display="block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
     </script>
 </body>
 </html>
