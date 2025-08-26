@@ -25,7 +25,7 @@ productsearch.addEventListener("keyup",function(event)
             {
                 
             document.getElementById("h1tag1").style.display="none";
-            }
+            
             */
         }
         else
