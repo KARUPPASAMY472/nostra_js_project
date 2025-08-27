@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Nostra</title>
+</head>
+<body>
+    <header class="nostra_header">
+        <p>Sign Up and GET 20% OFF for your first Order.</p>
+        <i style="cursor: pointer;" class="fa-solid fa-square-xmark close_mark" onclick="xmark()"></i>
+    </header>
+
+    <nav class="nostra_navbar">
+        <h2>NOSTRA</h2>
+        
+        
+        <div>
+            <i class="fa-solid fa-bars-staggered menu_bar" onclick="opensidebar()"></i>
+        </div>
+
+        <p class="nostra_navbar_p_tag">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="collection.html">Collection</a>
+            <a href="#new_arraivel">New Collection</a>
+            <a href="#most_wanted">Most Wanted</a>
+        </p>
+
+    </nav>
+
+    <div class="side_navbar">
+        <div class="x_mark">
+            
+        <h2 style="color: white;padding: 10px;">Nostra</h2>
+            <i class="fa-solid fa-xmark close_menu_bar" onclick="xmarksidenav()"></i>
+        </div>
+        <div>
+        <p class="menu_bar_navbar">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="index.html">Most Wanted</a>
+            <a href="collection.html">Collection</a>
+            <a href="index.html" href="#new_arraivel">New Collection</a>
+        </p>
+        </div>
+
+    </div>
+
+
+
+    
+  <section class="text-center my-6">
+    <h1 class="font-bold text-3xl">Contact Us</h1>
+    <h3 class= " md:text-lg text-gray-300 p-2">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</h3>
+     <div class="xl:px-48">
+    <form action="" class="p-4" >
+        <div class="py-4">
+        <label for="" class="float-left py-3">Your Email</label>
+        <input type="email" class="p-2 w-full rounded-md bg-gray-100 border-1 border-black focus:outline-none" required placeholder="name@gmail.com">
+        </div>
+        <div class="py-4">
+        <label for="" class="float-left py-3">Subject</label>
+        <input type="text" class="p-2 w-full rounded-md bg-gray-100 border-1 border-black focus:outline-none" required placeholder="Let us know we can help you">
+        </div>
+        <div class="py-4">
+        <label for="" class="float-left py-3">Your message</label>
+        <textarea name="" class="p-2 w-full h-40 rounded-md bg-gray-100 border-1 border-black focus:outline-none" id="" placeholder="Leave a command" required></textarea>
+        </div>
+        <div class="">
+        <button type="submit" class="p-2 px-6  float-left bg-green-400 rounded-md hover:bg-green-100">Submit</button>
+        </div>
+    </form>
+    </div>
+  </section>
+
+
+  
+  
+
+<section class="nostra_offer_section">
+
+        <div class="nostra_subscribe">
+            <h2>Join our News Letter</h2>
+            <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <div class="nostra_subscribe_input">
+                <form action="">
+                    <input type="text" required>
+                    <button type="submit">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+           
+    <section class="nostra_about_section">
+             <div class="nosrta_last">
+                <h1>Nostra</h1>
+                <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+                <div class="brandlogo">
+                    <i class="fa-regular fa-instagram"></i>
+                    <i class="fa-solid fa-twitter"></i>
+                    <i class="fa-solid fa-facebook"></i>
+                </div>
+                <p>@ 2023 Nostra.com</p>
+            </div>
+    </section>
+
+    <script src="script.js">
+
+    </script>
+
+  
+
+    <section class=" flex justify-around items-center p-4 bg-white sticky bottom-0 md:hidden">
+        <div class="flex gap-2 items-center hover: cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 p-2 t bg-gray-200  rounded-full" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+</svg>
+<p>Call Us</p>
+        </div>
+        <div class="flex gap-2 items-center  hover: cursor-pointer">
+            <i class="fa-brands fa-whatsapp text-2xl text-green-500 hover:cursor-pointer"></i>
+            <p>WhatsApp</p>
+        </div>
+        <div class="flex gap-2 items-center hover: cursor-pointer">
+            <i class="fa-solid fa-pencil"></i>
+            Book Now
+        </div>
+    </section>
+
+    </body>
+    </html>
