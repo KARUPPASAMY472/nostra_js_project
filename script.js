@@ -150,7 +150,7 @@ function leftcli()
                 ["images/shirt4.1.jpg","images/shirt4.2.jpg","images/shirt4.3.jpg"],
                 ["images/shirt3.1.jpg","images/shirt3.2.jpg","images/shirt3.3.jpg"],
                 ["images/shirt2.1.jpg","images/shirt2.2.jpg","images/shirt2.3.jpg"],
-                ["images/shirt5.1.jpg","images/shirt5.2.jpg","images/shirt5.3.jpg"],
+                ["images/shirt5.1.jpg", "images/shirt5.2.jpg", "images/shirt5.3.jpg"],
                 ["images/shirt6.1.jpg","images/shirt6.2.jpg","images/shirt6.3.jpg"],
                 ["images/shirt8.1.jpg","images/shirt8.2.jpg","images/shirt8.3.jpg"]
             ];
@@ -161,23 +161,28 @@ function leftcli()
                 const buttonsy = contais.querySelectorAll(".color-btn");
                 
                 buttonsy.forEach(butto => {
-                butto.addEventListener("click",() => {
+                    butto.addEventListener("click", () => {
+                    
+               const colorInde=butto.dataset.color;
+               
+               console.log("this is what :"+colorInde)
                const colorIndex=parseInt(butto.dataset.color);
+               console.log("this color change img :"+colorIndex)
                if (colorIndex === 0)
                {
-
-                
-                
                 img.src =imagesi[index][0];
+                console.log("this image is :" +imagesi[index][0])
                 
                }
                else if (colorIndex === 1)
                {
                 img.src =imagesi[index][1];
+                console.log("this image is :" +imagesi[1][1])
                }
                else if (colorIndex === 2)
                {
                 img.src =imagesi[index][2];
+                console.log("this image is :" +imagesi[2][2])
                }
                 });
                 });
@@ -194,11 +199,18 @@ function leftcli()
                 button.addEventListener("click",() => {
                     if (button.classList.contains("liked"))
                 {
+                    k=button.classList.contains("liked")
+                    console.log("thi is liked or not liked :"+k)
+                    ki=button.className;
+                    console.log("thi is liked or not liked :"+ki)
                     button.classList.remove("fa-solid","liked");
                     button.classList.add("fa-regular");
                 }
                 else
                 {
+                    
+                    k=button.classList.contains("liked")
+                    console.log("thi is liked or not liked :"+k)
                     button.classList.remove("fa-regular");
                     button.classList.add("fa-solid","liked");
                 }

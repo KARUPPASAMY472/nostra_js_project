@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Nostra</title>
+</head>
+<body>
+    <header class="nostra_header">
+        <p>Sign Up and GET 20% OFF for your first Order.</p>
+        <i style="cursor: pointer;" class="fa-solid fa-square-xmark close_mark" onclick="xmark()"></i>
+    </header>
+
+    <nav class="nostra_navbar">
+        <h2>NOSTRA</h2>
+        
+        
+        <div>
+            <i class="fa-solid fa-bars-staggered menu_bar" onclick="opensidebar()"></i>
+        </div>
+
+        <p class="nostra_navbar_p_tag">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="collection.html">Collection</a>
+            <a href="#new_arraivel">New Collection</a>
+            <a href="#most_wanted">Most Wanted</a>
+        </p>
+
+    </nav>
+
+    <div class="side_navbar">
+        <div class="x_mark">
+            
+        <h2 style="color: white;padding: 10px;">Nostra</h2>
+            <i class="fa-solid fa-xmark close_menu_bar" onclick="xmarksidenav()"></i>
+        </div>
+        <div>
+        <p class="menu_bar_navbar">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="#most_wanted">Most Wanted</a>
+            <a href="collection.html">Collection</a>
+            <a href="#new_arraivel">New Collection</a>
+        </p>
+        </div>
+
+    </div>
+
+    <section class="main_image_section">
+        <div class="nostra_main_img">
+            
+               
+            <div class="nostra_main_img_1">
+                <div class="nostra_main_img_1_2" style="margin-left: 0;">
+                <img src="images/clasesmainpage.jpg" alt="" class="main_img_2">
+                <img src="images/shirtmainpage2.jpg" alt="" class="main_img_1">
+                <img src="images/shoesmainpage.jpeg" alt="" class="main_img_3">
+                
+                </div>
+                <div class="nostra_main_img_1_content">
+                    <h1>Level up your style with our</h1>
+                    <p>Summer Collections</p>
+                    <a href="collection.html" class="btn-a" >Shop Now <i class="fa-solid fa-arrow-right" style="color:blueviolet;"></i></a>
+
+                    <div class="arrow-tag-left" ><i class="fa-solid fa-caret-left right_arrow" onclick=" leftclickarow()"></i></div>
+                    <div class="arrow-tag-right"><i class="fa-solid fa-caret-right left_arrow" onclick=" rightclickarow()"></i></div>
+                    
+                    <div class="arrow-tag-left" id="lef" style="display: none;"><i class="fa-solid fa-caret-left right_arrow" onclick=" leftclickt()"></i></div>
+                    <div class="arrow-tag-right" id="rig" style="display: none;"><i class="fa-solid fa-caret-right left_arrow" onclick=" rightclickt()"></i></div>
+               
+                    <div class="arrow-tag-left" id="thr" style="display: none;"><i class="fa-solid fa-caret-left right_arrow" onclick=" leftcli()"></i></div>
+                    <div class="arrow-tag-right" id="four" style="display: none;"><i class="fa-solid fa-caret-right left_arrow" onclick=" rightcli()"></i></div>
+
+                </div>
+                    
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="nostra_brand_section animate_trans animate_opcity">
+        <h2>Brands</h2>
+        <div class="nostra_brand_collection">
+            <div>
+            <img src="images/brand1.png" alt="" class="nostra_brand_img">
+            <h2>PUMA</h2>
+            </div>
+            <div>
+            <img src="images/brand2.png" alt="" class="nostra_brand_img">
+            <h2>ADIDAS</h2>
+            </div>
+            <div>
+            <img src="images/simple.png" alt="" class="nostra_brand_img">
+            <h2>SIMPLE</h2>
+            </div>
+            <div>
+            <img src="images/brand4.png" alt="" class="nostra_brand_img">
+            <h2>LEAVES</h2>
+            </div>
+            <div>
+            <img src="images/brand1.png" alt="" class="nostra_brand_img">
+            <h2>BEHANSE</h2>
+            </div>
+            <div>
+            <img src="images/brand6.png" alt="" class="nostra_brand_img">
+            <h2>TWITCH</h2>
+            </div>
+            <div>
+            <img src="images/brand7.png" alt="" class="nostra_brand_img">
+            <h2>LEAVES</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="nostra_provides_section animate_trans animate_opcity ">
+        <div class="nostra_provides_container_1">
+            <h3 style="padding: 10px 0px;font-size: 32px;letter-spacing: 0.1pc;">We Provide Best <br>Customer Experiences</h3>
+            <p>|| We ensure that our customer have the best shopping experience</p>
+        </div>
+        <div class="nostra_provides_container_2">
+            <div class="container-contant_1">
+                <i class="fa-regular fa-face-smile  provide_i_tag" style="padding: 10px 0px;"></i>
+                <h4>Original Products</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+            </div>
+            <div class="container-contant_1">
+                <i class="fa-solid fa-check provide_i_tag" style="padding: 10px 0px;"></i>
+                <h4>Original Products</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+            </div>
+            <div class="container-contant_1">
+                <i class="fa-regular fa-face-smile provide_i_tag" style="padding: 10px 0px;"></i>
+                <h4>Original Products</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+            </div>
+            <div class="container-contant_1">
+                <i class="fa-solid fa-check provide_i_tag" style="padding: 10px 0px;"></i>
+                <h4>Original Products</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="new_arrival_section animate_trans animate_opcity" id="new_arraivel">
+        <h1>
+            New Arrivals
+        </h1>
+        <div class="nostra_new_arrival">
+            <div class="new_arrival_collection_1">
+                
+                <img src="images/shirt3.2.jpg" alt="">
+                <div class="overlay"></div>
+                <a href="#"  class="arrival_a_tag">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                
+            </div>
+             <div class="new_arrival_collection_1">
+                
+                <img src="images/shoes2-1.jpg" alt="">
+                <div class="overlay"></div>
+                <a href="#"  class="arrival_a_tag">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                
+            </div>
+            
+             <div class="new_arrival_collection_1">
+                
+                <img src="images/shoes2-1.jpg" alt="">
+                <div class="overlay"></div>
+                <a href="#"  class="arrival_a_tag">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                
+            </div>
+             <div class="new_arrival_collection_1">
+                
+                <img src="images/clase7-3.jpg" alt="">
+                <div class="overlay"></div>
+                <a href="#"  class="arrival_a_tag">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                
+            </div>
+            
+        </div>
+
+        <div class="nostra_most" id="most_wanted">
+            <h1>Most Wanted</h1>
+           <div class="nostra_most_collection">
+                <div class="most_wanted_collection container_12">
+                    <div>
+                    <img src="images/shirt4.1.jpg" alt="" class="brown_shirt_1">
+                    </div>
+                    <div class="most_sale">
+                        <p>sale</p>
+                    </div>
+                
+                <div class="most_heart">
+                    <i class="fa-regular fa-heart n-heart"></i>
+                </div>
+                <div class="most_color">
+                    <i style="color: blueviolet;" class="fa-solid fa-circle brown-shirt color-btn red" data-color="0"></i>
+                    <i style="color: rgba(141, 197, 209, 0.959);" class="fa-solid fa-circle blueviolet-shirt color-btn green" data-color="1"></i>
+                    <i style="color: brown;" class="fa-solid fa-circle gray-shirt color-btn pink"  data-color="2"></i>
+                </div>
+                </div>
+
+                 <div class="most_wanted_collection container_12">
+                    <div>
+                    <img src="images/shirt3.3.jpg" alt="">
+                    </div>
+                    <div class="most_sale">
+                        <p>sales</p>
+                    </div>
+                
+                <div class="most_heart">
+                    <i class="fa-regular fa-heart n-heart"></i>
+                </div>
+                <div class="most_color">
+                    <i style="color: rgba(141, 197, 209, 0.959);" class="fa-solid fa-circle brown-shirt color-btn red" data-color="0"></i>
+                    <i style="color: blue;" class="fa-solid fa-circle blueviolet-shirt color-btn green" data-color="1"></i>
+                    <i style="color: rgb(241, 179, 104);" class="fa-solid fa-circle gray-shirt color-btn pink"  data-color="2"></i>
+                </div>
+                </div>
+
+                <div class="most_wanted_collection container_12">
+                    <div>
+                    <img src="images/shirt2.1.jpg" alt="" class="brown_shirt_1">
+                    </div>
+                    <div class="most_sale">
+                        <p>sale</p>
+                    </div>
+                
+                <div class="most_heart">
+                    <i class="fa-regular fa-heart n-heart"></i>
+                </div>
+                <div class="most_color">
+                    <i style="color: bisque;" class="fa-solid fa-circle brown-shirt color-btn red" data-color="0"></i>
+                    <i style="color: black;" class="fa-solid fa-circle blueviolet-shirt color-btn green" data-color="1"></i>
+                    <i class="fa-solid fa-circle gray-shirt color-btn pink"  data-color="2"></i>
+                </div>
+                </div>
+
+
+                <div class="most_wanted_collection container_12">
+                    <div>
+                    <img src="images/shirt5.1.jpg" alt="" class="brown_shirt_1">
+                    </div>
+                    <div class="most_sale">
+                        <p>sale</p>
+                    </div>
+                
+                <div class="most_heart">
+                    <i class="fa-regular fa-heart n-heart"></i>
+                </div>
+                <div class="most_color">
+                    <i style="color:rgb(227, 184, 191) ;" class="fa-solid fa-circle brown-shirt color-btn red" data-color="0"></i>
+                    <i style="color: rgb(113, 113, 201);" class="fa-solid fa-circle blueviolet-shirt color-btn green" data-color="1"></i>
+                    <i style="color: rgb(191, 234, 234);" class="fa-solid fa-circle gray-shirt color-btn pink"  data-color="2"></i>
+                </div>
+                </div>
+
+                <div class="most_wanted_collection container_12">
+                    <div>
+                    <img src="images/shirt6.1.jpg" alt="" class="brown_shirt_1">
+                    </div>
+                    <div class="most_sale">
+                        <p>sale</p>
+                    </div>
+                
+                <div class="most_heart">
+                    <i class="fa-regular fa-heart n-heart"></i>
+                </div>
+                <div class="most_color">
+                    <i style="color: rgb(5, 68, 5);" class="fa-solid fa-circle brown-shirt color-btn red" data-color="0"></i>
+                    <i style="color: rgb(43, 4, 63);" class="fa-solid fa-circle blueviolet-shirt color-btn green" data-color="1"></i>
+                    </div>
+                </div>
+
+                <div class="most_wanted_collection container_12">
+                    <div>
+                    <img src="images/shirt8.1.jpg" alt="" class="brown_shirt_1">
+                    </div>
+                    <div class="most_sale">
+                        <p>sale</p>
+                    </div>
+                
+                <div class="most_heart">
+                    <i class="fa-regular fa-heart n-heart"></i>
+                </div>
+                <div class="most_color">
+                    <i style="color: gray;" class="fa-solid fa-circle brown-shirt color-btn red" data-color="0"></i>
+                    <i style="color: black;" class="fa-solid fa-circle blueviolet-shirt color-btn green" data-color="1"></i>
+                    <i style="color: rgb(138, 204, 248);" class="fa-solid fa-circle gray-shirt color-btn pink"  data-color="2"></i>
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="nostra_offer_section animate_trans animate_opcity">
+        <div class="nostra-offer">
+            <div class="offer-div_1">
+                <img src="images/clasesmainpage.jpg" alt="">
+            </div>
+            <div class="offer-div_1">
+                <img src="images/shirtmainpage2.jpg" alt="" width="">
+            </div>
+            <div class="offer-div_1">
+                <img src="images/shirtmainpage.jpg" alt="">
+            </div>
+            <div class="offer-div_2">
+                <h1>Limited Offer</h1>
+                <h3>35% OFF on this for the first 30 Customers</h3>
+                <div style="margin-top: 30px;">
+                <a href="#">ShopNow <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="nostra_subscribe">
+            <h2>Join our News Letter</h2>
+            <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <div class="nostra_subscribe_input">
+                <form action="">
+                    <input type="text" required>
+                    <button type="submit">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+           
+    <section class="nostra_about_section">
+             <div class="nosrta_last">
+                <h1>Nostra</h1>
+                <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+                <div class="brandlogo">
+                    <i class="fa-regular fa-instagram"></i>
+                    <i class="fa-solid fa-twitter"></i>
+                    <i class="fa-solid fa-facebook"></i>
+                </div>
+                <p>@ 2023 Nostra.com</p>
+            </div>
+    </section>
+
+    <script src="practice.js">
+        // image change automatically
+
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("offer-div_1");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  
+  slides[slideIndex-1].style.display="block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+
+    </script>
+</body>
+</html>

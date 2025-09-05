@@ -36,6 +36,9 @@ productsearch.addEventListener("keyup",function(event)
       for (let i = 0; i < checkboxes.length; i++) {
         if (checkboxes[i].checked) {
           selected.push(checkboxes[i].value);
+          var j=selected.push(checkboxes[i].value);
+          console.log("thi sis" + j)
+          console.log("thi selected"+selected)
         }
       }
 
@@ -47,6 +50,9 @@ productsearch.addEventListener("keyup",function(event)
         } else {
           // check if any selected value is inside tags
           const match = selected.some(value => tags.includes(value));
+          const matchu=value =>includes(value);
+          console.log("this array is value :" + match)
+          console.log("this is what is used" + selected)
           if (match) {
             product.classList.remove("hidden");
           } else {
@@ -66,7 +72,7 @@ productsearch.addEventListener("keyup",function(event)
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("mouseover", function() {
+  acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
@@ -74,15 +80,7 @@ for (i = 0; i < acc.length; i++) {
     }
        else {
       panel.style.display = "block";
-      if(panel.style.display === "block")
-      {
-       
-      panel.style.display = "block"; 
-      }
-      else if(panel[i] === 0)
-      {
-        panel.style.display = "none";
-      }
+      
     }
   });
 }
